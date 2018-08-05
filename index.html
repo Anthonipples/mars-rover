@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rover</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    
+</head>
+<body>
+        <header>ROVER v1.0.0</header>
+    <div class="container">
+        <div class="half">
+                <div class="inner">
+                        <header>ROVER 1</header>
+                        <p>Test data to be run:</br>
+                            X: 1</br>
+                            Y: 2</br>
+                            Facing : North</br>
+                            Commands:</br> LMLMLMLMM</br>
+                        </p>
+                        <button class="runit" id="roverOneButton">TRANSMIT DATA</button>
+                        <div id = "output1">
+                                <h3>Output:</h3>
+                            </div>
+                </div>
+        </div>
+        <div class="half">
+            <div class="inner">
+                    <header>ROVER 2</header>
+                    <p>Test data to be run:</br>
+                        X: 3</br>
+                        Y: 3</br>
+                        Facing : East</br>
+                        Commands:</br> MMRMMRMRRM</br>
+                    </p>
+                    <button class="runit" id="roverTwoButton">TRANSMIT DATA</button>
+                    <div id = "output2">
+                        <h3>Output:</h3>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+
+        <script src="app.js"></script>
+</body>
+</html>
